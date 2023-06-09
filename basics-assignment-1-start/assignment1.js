@@ -1,4 +1,4 @@
-let a = 20;
+let userInput = 20;
 
 let result;
 
@@ -11,4 +11,4 @@ result = result * 5;
 result = result / 11;
 
 alert(result);
-alert(a);
+alert(userInput);
