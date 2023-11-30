@@ -32,6 +32,12 @@ function writeToLog(
 
 function calculateResult(calculationType) {
   const enteredNumber = getUserNumberInput();
+
+  if (!enteredNumber) {
+    // here we inverse the falsy value for input as 0
+    return;
+  }
+
   const initialResult = currentResult;
   let mathOperator;
   if (calculationType === "ADD") {
