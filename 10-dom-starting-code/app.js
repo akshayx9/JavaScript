@@ -15,3 +15,8 @@ const listItemElements = document.getElementsByTagName("li");
 for (const listItemEl of listItemElements) {
   console.dir(listItemEl);
 }
+
+const ul = document.body.firstElementChild.nextElementSibling;
+const firstLi = ul.firstElementChild;
+
+console.log(firstLi);
